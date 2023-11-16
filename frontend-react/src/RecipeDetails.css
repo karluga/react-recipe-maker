@@ -1,0 +1,65 @@
+
+  
+body{
+    font-family: raleway;
+}
+.container-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.recipe-box{
+    padding: 2rem;
+margin: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column;
+
+    width: 40rem;
+    border-radius: 1rem;
+}
+.recipe-pic{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+.comment-box{
+    margin: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;}
+.comment-form{
+    display: flex;
+    flex-direction: column;
+
+}
+.comment-input{
+width: 15rem;
+height: 5rem;
+}
+.comment-label{
+    display: flex;
+    flex-direction: column;
+}
+.comment-button{
+    width: 7rem;
+    height: 2rem;
+    border-radius: 1rem;
+    background-color: white;
+    border:1px solid;
+    margin: 0.2rem;
+    transition: 0.2s;
+}
+.comment-button:hover{
+    background-color: lightgreen;
+
+}
+.comment-list{
+display: flex;
+flex-direction: column;
+overflow: hidden;
+text-overflow: ellipsis;
+}
